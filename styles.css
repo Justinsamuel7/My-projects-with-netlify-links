@@ -70,6 +70,20 @@ footer {
   padding: 1rem 0;
 }
 
+#gitcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#gitcontainer img{
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+#gitcontainer a{
+  margin: 0 0.5rem;
+}
+
 /* Responsive styles */
 @media screen and (max-width: 600px) {
   main {
